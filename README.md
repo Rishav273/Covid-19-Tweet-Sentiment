@@ -19,3 +19,5 @@ Lastly, to start the app, run the following:
 python app.py
 ```
 Copy the link given in the terminal to your browser of choice. The app should be visible.
+
+dataset taken from - https://www.kaggle.com/datatattle/covid-19-nlp-text-classification
