@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sentiment Result</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+
+<body>
+	<div class="top">
+		<h2>COVID-19 Sentiment Analyser</h2>
+	</div>
+
+	<div class="container">
+		<h4>Enter desired tweet below:</h4>
+	</div>
+
+	<div class="search_box">
+		<input type="text" name="search" placeholder="Tweet...">
+	</div>
+
+	<h3 class="prediction_alert" role="alert">{{ prediction_text }}</h3>
+
+	<form action="{{url_for('home')}}" method="get">
+
+		<button class="back"><< Predict some more!</button>
+	</form>
+
+	<div class="footer">
+		&copy; Rishav Majumdar.
+	</div>
+</body>
+</html>

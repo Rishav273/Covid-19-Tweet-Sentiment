@@ -1,0 +1,146 @@
+body{
+	background: url(twitter.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+	text-align: center; 
+}
+
+
+.top{
+	font-size: 25px;
+	font-family: cursive;
+	font-style: italic;
+	color: beige;
+}
+
+.container{
+	font-size: 25px;
+	font-family: cursive;
+	font-style: italic;
+	color: #3892C9;
+	position: absolute;
+	top: 20%;
+	left: 38%;
+}
+
+
+.button_wrapper{
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.button_wrapper input[type=text] {
+    width: 500px;
+    height: 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    position: absolute;
+    left: 25%;
+    top: 68%;
+    font-style: italic;
+    font-weight: bold; 
+    background: lightgrey;
+}
+
+.button_wrapper .buttons{
+    position: absolute;
+    left: 40%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+    font-style: italic;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: cursive;
+	font-style: italic;
+	color: #231F97;
+	background: lightgrey;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #231F97;
+	border-radius: 25px;
+	transition: .4s;
+	position: absolute;
+	left: 50%;
+	top: 55%;
+}
+
+.buttons button:hover{
+	background: darkgrey;
+}
+
+
+.search_box input[type=text] {
+    width: 500px;
+    height: 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    position: absolute;
+    left: 32%;
+    top: 38%;
+    font-style: italic;
+    font-weight: bold; 
+    font-size: 20px;
+    color: white;
+    background: #231F97;
+}
+
+.prediction_alert{
+	position: absolute;
+	bottom: 15%;
+	left: 20%;
+	font-size: 30px;
+	color: white;
+	font-style: unset;
+}
+
+.back {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+    font-style: italic;
+    font-family: cursive;     
+    font-weight: bold;
+	background-color: lightgrey;
+	font-size: 22px; 
+	color: #231F97;
+	width: 140px;
+	height: 80px;
+	border: #231F97;
+	border-radius: 25px;
+}
+
+.back:hover {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+    font-family: cursive; 
+    font-style: italic;
+    font-weight: bold;
+	background-color: darkgrey;
+	font-size: 22px; 
+	color: #44159A;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+	width: 140px;
+	height: 80px;
+	cursor: pointer;
+}
+
+
+.footer{
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+	font-size: 18px;
+	color: beige;
+	font-style: italic;	
+}
