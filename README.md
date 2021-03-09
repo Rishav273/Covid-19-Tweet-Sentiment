@@ -1,7 +1,7 @@
 # Covid-19-Tweet-Sentiment-Classifier
 
 Using Deep learning to create text classification models that predict the sentiment of tweets on the topic of coronovirus pandemic.
-2 models have been trained on the dataset - A deep Bidirectional LSTM network with dropout layers and a Deep Convolutional Neural Net.
+2 models have been trained on the dataset - A deep Bidirectional LSTM network with dropout layers and a Deep Convolutional Neural Net, which gave better performance metrics.
 
 # To use the app:
 
